@@ -1,8 +1,14 @@
 # demo-spring-react-example-v2: dsre-v2
 
+[![codecov](https://codecov.io/gh/ucsb-cs156-s22/jpa03-jacksonjude/branch/main/graph/badge.svg?token=kiO2OvYO3d)](https://codecov.io/gh/ucsb-cs156-s22/jpa03-jacksonjude)
+
+Repo: https://github.com/ucsb-cs156-s22/jpa03-jacksonjude
+
+Heroku: https://jpa03-jacksonjude.herokuapp.com
+
 Storybook is here:
-* Production: <https://ucsb-cs156-s22.github.io/demo-spring-react-example-docs/>
-* QA:  <https://ucsb-cs156-s22.github.io/demo-spring-react-example-docs-qa/>
+* Production: <https://ucsb-cs156-s22.github.io/jpa03-jacksonjude-docs/>
+* QA:  <https://ucsb-cs156-s22.github.io/jpa03-jacksonjude-docs-qa/>
 
 The GitHub actions script to deploy the Storybook to QA requires some configuration; see [docs/github-actions.md](docs/github-actions.md) for details.
 
@@ -13,7 +19,7 @@ If these repos are not yet setup, see the setup steps in [`docs/storybook.md`](d
 Before running the application for the first time,
 you need to do the steps documented in [`docs/oauth.md`](docs/oauth.md).
 
-Otherwise, when you try to login for the first time, you 
+Otherwise, when you try to login for the first time, you
 will likely see an error such as:
 
 <img src="https://user-images.githubusercontent.com/1119017/149858436-c9baa238-a4f7-4c52-b995-0ed8bee97487.png" alt="Authorization Error; Error 401: invalid_client; The OAuth client was not found." width="400"/>
@@ -22,7 +28,7 @@ will likely see an error such as:
 
 * Open *two separate terminal windows*  
 * In the first window, start up the backend with:
-  ``` 
+  ```
   mvn spring-boot:run
   ```
 * In the second window:
